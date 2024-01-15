@@ -1,0 +1,56 @@
+.taks-counter {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+
+    .parent-card {
+        width: 300px;
+        height: 144px;
+        border-radius: 24px;
+        background: #6746EE;
+
+        .card {
+            img {
+                width: 94px;
+                height: 101px;
+            }
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                margin-left: 28px;
+
+                h1 {
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                }
+
+                h2 {
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+
+            .card-content {
+                display: flex;
+                flex-direction: row;
+
+                .image {
+                    flex: 0.9;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    margin-top: 43px;
+                }
+            }
+        }
+    }
+}
