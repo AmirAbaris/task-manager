@@ -1,4 +1,4 @@
-.task {
+.task-counter {
     display: flex;
     justify-content: center;
     margin-top: 4rem;
@@ -37,16 +37,6 @@
                     font-weight: 400;
                     line-height: normal;
                 }
-
-                h4 {
-                    color: #FFF;
-                    text-align: center;
-                    font-family: Poppins;
-                    font-size: 22px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                }
             }
 
             .card-content {
@@ -65,6 +55,51 @@
     }
 }
 
+.search {
+    display: flex;
+    justify-content: center;
+
+    .form {
+        mat-form-field {
+            min-width: 300px;
+        }
+    }
+}
+
+.task {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    .parent-card {
+        display: flex;
+        width: 300px;
+        padding: 16px 14px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 32px 202px;
+        flex-wrap: wrap;
+        border-radius: 24px;
+        background: rgba(214, 93, 177, 0.73);
+
+        .card {
+            .card-content {
+                h4 {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Poppins;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+
+}
+
 .to-do {
     display: flex;
     justify-content: center;
@@ -78,8 +113,4 @@
         font-weight: 700;
         line-height: normal;
     }
-}
-
-.search {
-    
 }
