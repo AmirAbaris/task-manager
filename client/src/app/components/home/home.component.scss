@@ -1,4 +1,4 @@
-.taks-counter {
+.task {
     display: flex;
     justify-content: center;
     margin-top: 4rem;
@@ -37,6 +37,16 @@
                     font-weight: 400;
                     line-height: normal;
                 }
+
+                h4 {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Poppins;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
             }
 
             .card-content {
@@ -53,4 +63,23 @@
             }
         }
     }
+}
+
+.to-do {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    h3 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.search {
+    
 }
